@@ -6,26 +6,28 @@
     <meta name="author" content="Luis Rojas" />
     <meta
       name="description"
-      content="TripleTen, Around the U.S., galería, fotografía, compartir,"
+      content="Bank of America, ATM, Cajero Automático, Deposito, Retiro, Consulta, Efectivo"
     />
     <title>Bank of America</title>
-    <link rel="shorcut icon" href="  " />
-    <link rel="stylesheet" href=" " />
+    <link rel="shortcut icon" href="./images/BankIcon.png" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <script src="./script/script.js"></script>
   </head>
   <body>
     <div class="container">
-      <h1 class="text">Bank of America</h1>
+      <h1 class="title-page">Bank of America</h1>
     </div>
-    <div class="forminicio">
-      <h2>Login</h2>
-      <h3>INGRESA A TU CUENTA</h3>
+
+    <div class="form">
+      <h2 class="title-form">Login</h2>
+      <h3 class="title-account">INGRESA A TU CUENTA</h3>
       <div class="datos">
         <label> Usuario:</label>
         <input type="text" id="nombre" placeholder="Usuario" required />
         <label>Contraseña: </label>
         <input type="password" id="password" placeholder="Password" required />
       </div>
-      <button class="submit">Ingresar</button>
+      <button class="submit" onclick="login()">Ingresar</button>
     </div>
   </body>
   <footer class="footer">

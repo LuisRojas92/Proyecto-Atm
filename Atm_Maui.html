@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Luis Rojas" />
+    <meta
+      name="description"
+      content="Bank of America, ATM, Cajero Automático, Deposito, Retiro, Consulta, Efectivo"
+    />
+    <title>Bank of America</title>
+    <link rel="shortcut icon" href="./images/BankIcon.png" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <script src="./script/script.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1 class="welcome-user">¡Hola! Maui</h1>
+      <h2 class="leyenda">Bienvenido a Bank of America</h2>
+    </div>
+    <div class="account-user">
+      <label class="money-balance">Tu saldo actual es de:</label>
+      <input type="text" name="Cantidad1" id="C1" value="67" />
+
+      <form action="" onsubmit="Trasferir">
+        <h2>Monto:</h2>
+        <input type="text" name="" id="Cant" placeholder="Cantidad" />
+        <hr />
+
+        <input
+          type="button"
+          value="Depositar a cuenta "
+          id="bt4"
+          onclick="Depositar()"
+        />
+
+        <input
+          type="button"
+          value="Retirar de cuenta "
+          id="bt6"
+          onclick="Retirar()"
+        />
+      </form>
+    </div>
+    <button class="button-logout" onclick="location.href='index.html'">
+      Cerrar sesión
+    </button>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(106, 97, 97);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: center;
+  padding: 40px;
+}
+.text {
+  text-align: left;
+  color: white;
+}
+
+label {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+#nombre,
+#password {
+  text-align: center;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+}
+
+input[type="button"] {
+  width: 100%;
+  background-color: #e00000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+input[type="button"]:hover {
+  background-color: #45a049;
+}
+.submit {
+  background-color: #3e9c41;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  float: right;
+}
+
+.title-page {
+  color: rgb(237, 241, 240);
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.title-form {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.title-account {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
